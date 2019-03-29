@@ -26,11 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-# _{Application Name}_
+# _Barneys New York Site Re Build_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Brief description of application}, 03/29/2019_
 
-#### By _**{List of contributors}**_
+#### By _**Nelia Terrazas**_
 
 ## Description
 
@@ -55,15 +55,17 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
 
 ## Technologies Used
+* HTML/CSS/Bootstrap
+* Karma/Jasmine
+* JavaScript
+* Angular.7.2.1/Angular CLI 7.3.7
+
 
 ##ROAD MAP
 
-<!-- 10:30-11:00 revisit "tour of heroes" angular intro and decide on constructor path  -->
-
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT License*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2019 **_Nelia Terrazas_**
