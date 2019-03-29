@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Details } from '../test/details';
 
 @Component({
   selector: 'app-navbar',
@@ -6,15 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-  navbarOpen = false;
-  toggleNavbar() {
-  this.navbarOpen = !this.navbarOpen;
-  }
-  constructor(public navTitle: string, public navDescription: string) { }
-  listings: NavbarComponent[] = [
-    new NavbarComponent('BARNEYS WAREHOUSE', 'Shop Designer Steals at Barneys Warehouse!')
-  ]
-
+  navItem: Details = {
+    id: 1,
+    name: 'BARNEYS WAREHOUSE'
+  };
+  constructor() { }
 
   ngOnInit() {
   }
