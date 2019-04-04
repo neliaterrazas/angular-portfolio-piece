@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Luxury Designer Handbags, Shoes, and Clothing | Barneys New York';
+  title = 'Barneys New York';
 }
