@@ -1,27 +1,39 @@
-# Angular
+## Barneys Site Re Build Using Angular
+---
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+#### Nelia Terrazas
+#### March 29th, 2019
 
-## Development server
+### Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This site is meant to be a recreation of https://www.barneys.com/ using Angular.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Technologies and Resources
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+* HTML
+* Angular/Angular CLI
+* CSS
+* Node.js/npm
 
-## Running unit tests
+### Responsiveness
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This site is still in basic set up when you first install angular. It is responsive.
 
-## Running end-to-end tests
+### Setup Instructions
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* Update/have latest version of Node.js and npm
+* Globally install Angular/Angular cli ($ npm install -g @angular/cli@1.6.5)
+* Download this repository at https://github.com/neliaterrazas/site.git onto your desktop and navigate into the folder.
+* Run ($ npm i) to install dependencies.
+* Run ($ ng serve --open) to see the site on your browser.
 
-## Further help
+### Roadmap
+At this moment, my site does not resemble the target site at all. I will first create and tackle the nav bar component, and from there continue creating new components separated out as the are on the original page. Once the main page looks something like the original, my next goal will be to implement my own database (using Firebase) to insert photos and clothes info.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+
+MIT License
+
+Copyright (c) 2019 **_Nelia Terrazas_**
