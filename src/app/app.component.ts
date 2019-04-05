@@ -10,9 +10,5 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
   title = 'Barneys New York';
-   items: Observable<any[]>;
-  constructor(db: AngularFirestore) {
-        this.items = db.collection('items').valueChanges();
-
-}
+   constructor() {}
 }
