@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { Observable } from 'rxjs';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
