@@ -9,12 +9,10 @@ import { FooterComponent } from './footer/footer.component';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 import { FashionGridComponent } from './fashion-grid/fashion-grid.component';
 import { ShopNowComponent } from './shop-now/shop-now.component';
+import { ClothesDisplayComponent } from './clothes-display/clothes-display.component';
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { AngularFireStorageModule } from '@angular/fire/storage';
-import { AngularFireAuthModule } from '@angular/fire/auth';
-import { environment } from '../environments/environment';
+
 
 @NgModule({
   declarations: [
@@ -24,17 +22,14 @@ import { environment } from '../environments/environment';
     FooterComponent,
     BottomBarComponent,
     FashionGridComponent,
-    ShopNowComponent
+    ShopNowComponent,
+    ClothesDisplayComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     AngularFireModule,
-    AngularFirestoreModule,
-    AngularFireStorageModule,
-    AngularFireAuthModule,
-    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]
