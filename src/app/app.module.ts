@@ -5,13 +5,21 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AdsComponent } from './ads/ads.component';
+import { FooterComponent } from './footer/footer.component';
+import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
+import { FashionGridComponent } from './fashion-grid/fashion-grid.component';
+import { ShopNowComponent } from './shop-now/shop-now.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    AdsComponent
+    AdsComponent,
+    FooterComponent,
+    BottomBarComponent,
+    FashionGridComponent,
+    ShopNowComponent
   ],
   imports: [
     BrowserModule
