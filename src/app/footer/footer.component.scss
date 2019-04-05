@@ -1,7 +1,25 @@
 .footer{
+  display: flex;
+  flex-direction: row;
+  height: 10em;
   .about {
-    display: flex;
-    flex-direction: row;
-
+    align-items: flex-start;
   }
+  .customer {
+    align-items: flex-start;
+  }
+  .our-stories {
+    align-items: flex-start;
+  }
+  .service {
+    align-items: flex-start;
+  }
+  .browse {
+    align-items: flex-start;
+  }
+  .podcast {
+    margin-top: 10%;
+  }
+
+
 }
